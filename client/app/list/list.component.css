@@ -1,0 +1,36 @@
+#container{
+	background-color: white;
+	min-height: 100%;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+    display: relative;
+    box-sizing: border-box;
+    /* padding: 0 16px; */
+    width: 100%;
+    align-items: center;
+    white-space: nowrap;
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 80px;
+}
